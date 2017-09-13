@@ -1,0 +1,96 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #fceade;
+}
+
+#header{
+	font-family:'Bungee Inline', cursive;
+	background-color: #ff6f69;
+	color: #777777;
+	margin: 20px auto;
+	padding: 20px 10px;
+	text-align: center;
+	width: 60%;
+	font-size: 28px;
+}
+
+#attemptCountdown {
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+	clear: both;
+	font-size: 20px;
+	margin: 10px auto;
+	text-align: center;
+	height: 50px;
+	padding: auto;
+	width: 60%;
+
+}
+
+#underscore {
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+	border: 2px solid black;
+	clear: both;
+	font-size: 28px;
+	margin: 10px auto;
+	text-align: center;
+	height: 200px;
+	width: 60%;
+
+}
+
+#subunderscore{
+	font-family: 'Rajdhani', sans-serif;
+	margin: 50px auto;
+
+
+}
+
+
+#usedLetter {
+	font-family: 'Rajdhani', sans-serif;
+	clear: both;
+	font-size: 28px;
+	margin: 10px auto;
+	text-align: center;
+	height: 100px;
+	font-weight: bold;
+	width: 60%;
+
+}
+#subusedLetter{
+	font-family: 'Rajdhani', sans-serif;
+	margin: 20px auto;
+	font-weight: normal;
+
+}
+
+#wrongLetter {
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+	border-top: 1px solid black;
+	clear: both;
+	font-size: 24px;
+	margin: 10px auto;
+	text-align: center;
+	height: 100px;
+	width: 60%;
+	padding-top: 10px;
+}
+
+#subwrongLetter{
+	font-family: 'Rajdhani', sans-serif;
+	margin-top: 5px auto;
+	font-weight: normal;
+
+}
+
+
+
+
+
