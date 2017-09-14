@@ -10,12 +10,25 @@ body{
 #header{
 	font-family:'Bungee Inline', cursive;
 	background-color: #ff6f69;
-	color: #777777;
+	color: #514f4f;
 	margin: 20px auto;
 	padding: 20px 10px;
 	text-align: center;
 	width: 60%;
 	font-size: 28px;
+	height: 150px;
+}
+
+#subheader{
+	font-family:'Bungee Inline', cursive;
+	background-color: #ff6f69;
+	color: black;
+	margin: 5px auto;
+	padding: 20px 10px;
+	text-align: center;
+	width: 60%;
+	font-size: 20px;
+	height: 70px;
 }
 
 #attemptCountdown {
@@ -90,7 +103,30 @@ body{
 
 }
 
+#winCount{
+	font-family: 'Bungee Inline', cursive;
+	font-weight: bold;
+	border: 2px solid black;
+	clear: both;
+	font-size: 24px;
+	margin: 5px 50px auto auto;
+	text-align: center;
+	height: 100px;
+	width: 10%;
+	padding-top: 10px;
+	float: right;
+	font-weight: regular;
 
+}
+
+#subwinCount{
+	font-family: 'Rajdhani', sans-serif;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 24px;
+
+
+}
 
 
 
