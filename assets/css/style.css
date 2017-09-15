@@ -28,7 +28,7 @@ body{
 	text-align: center;
 	width: 100%;
 	font-size: 20px;
-	height: 70px;
+	height: 60px;
 }
 
 #attemptCountdown {
@@ -147,7 +147,7 @@ body{
 		width: 100%;
 	}	
 	#header{
-		height: 40%;
+		height: 60%;
 	}
 	#winCount{
 		float: none;
@@ -166,12 +166,12 @@ body{
 		width: 100%;
 	}	
 	#header{
-		height: 40%;
+		height: 60%;
 	}
 	#winCount{
 		width: 100%;
 		float: none;
-		height: 15%;
+		height: 20%;
 	}
 	#subwinCount {
 		height: 10%;
