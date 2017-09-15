@@ -10,7 +10,7 @@ var userInputArray = [];
 var attemptCountdown = 10; 
 var winCount = 0;
 
-
+alert("Welcome! You are about to have fun guessing country names in Asia. Remember, these countries could be from anywhere in Asia including the Middle East. Have fun!")
 
 //BELOW THIS LINE IS WHERE WE CREATE A FUNCTION WHICH WILL BE CALLED WHEN THE MAIN FUNCTION IS OVER
 function reset (){

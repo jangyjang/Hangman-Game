@@ -5,29 +5,33 @@
 
 body{
 	background-color: #fceade;
+	background-image: url(../images/muti-globe.jpg);
+	background-position: center;
 }
 
 #header{
 	font-family: 'Bungee Shade', cursive;
 	color: black;
-	background-color: #ff6f69;
 	margin: 20px auto;
 	padding: 10px 10px 0px 10px;
 	text-align: center;
 	width: 75%;
-	font-size: 28px;
+	font-size: 40px;
 	height: 150px;
+	
+
+	
 }
 
 #subheader{
 	font-family: 'Bungee Inline', cursive;
-	background-color: #ff6f69;
+	/*background-color: #ff6f69;*/
 	color: black;
 	margin: 0px auto;
 	padding: 0px 10px;
 	text-align: center;
 	width: 100%;
-	font-size: 20px;
+	font-size: 24px;
 	height: 60px;
 }
 
@@ -38,68 +42,72 @@ body{
 	font-size: 24px;
 	margin: 20px auto;
 	text-align: center;
-	height: 50px;
-	padding: auto;
+	height: 30px;
 	width: 75%;
+	background-color: #bfe8fb;
+
 
 }
 
 #underscore {
-	font-family: 'Rajdhani', sans-serif;
-	font-weight: bold;
-	border: 2px solid black;
 	clear: both;
 	font-size: 28px;
-	margin: 10px auto;
+	margin: 20px auto;
 	text-align: center;
-	height: 200px;
-	width: 75%;
+	height: 150px;
+	width: 90%;
+	background-color: #e7f6fd;
+	font-family: 'Bungee Inline', cursive;
+
 
 }
 
 #subunderscore{
 	font-family: 'Rajdhani', sans-serif;
-	margin: 50px auto;
+	font-weight: bold;
+	margin: 30px auto;
 	font-weight: normal;
+	/*color: #e54e47;*/
+	color: #f55b17;
 
 
 }
 
 
 #usedLetter {
-	font-family: 'Rajdhani', sans-serif;
-	clear: both;
-	font-size: 28px;
-	margin: 10px auto;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 22px;
+	margin: 20px auto;
 	text-align: center;
 	height: 100px;
 	font-weight: bold;
-	width: 75%;
+	width: 60%;
+	background-color: #d0ecf9
+
 
 }
 #subusedLetter{
 	font-family: 'Rajdhani', sans-serif;
 	margin: 20px auto;
 	font-weight: normal;
+	
 
 }
 
 #wrongLetter {
-	font-family: 'Rajdhani', sans-serif;
-	font-weight: bold;
-	border-top: 1px solid black;
-	clear: both;
-	font-size: 24px;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 18px;
 	margin: 10px auto;
 	text-align: center;
 	height: 100px;
-	width: 75%;
+	width: 60%;
 	padding-top: 10px;
+	background-color: #d0ecf9
 }
 
 #subwrongLetter{
 	font-family: 'Rajdhani', sans-serif;
-	margin-top: 5px auto;
+	margin-top: 20px auto;
 	font-weight: normal;
 
 }
@@ -107,7 +115,6 @@ body{
 #winCount{
 	font-family: 'Bungee Inline', cursive;
 	font-weight: bold;
-	border: 2px solid black;
 	font-size: 24px;
 	margin: 0px 5px auto auto;
 	text-align: center;
@@ -115,7 +122,8 @@ body{
 	width: 10%;
 	padding-top: 10px;
 	float: right;
-	font-weight: regular;
+	color: #91ba1b;
+	
 
 }
 
