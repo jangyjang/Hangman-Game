@@ -146,7 +146,6 @@ for (var i=0; i<computerRandomSelection.length;i++){
 
       //scenario 1: if user guess is right, then we replace answerArray which is an _ with userInput. We do the for loop so that it checks all the letteres in the random word.
       for (var i=0; i<computerRandomSelection.length;i++){
-console.log(computerRandomSelection);
 
         //if userInput matches computerRandomSelections, replace answerArray at that i with userInput
         if (computerRandomSelection[i].indexOf(userInput) > -1){    
@@ -157,10 +156,7 @@ console.log(computerRandomSelection);
         document.getElementById("subunderscore").innerHTML = answerArray.join(" ").toUpperCase();
         }
       }
-console.log(answerArray.join(""))
-console.log(answerArray.join())
-console.log(answerArray.join(" "))
-console.log(answerArray.join ("  "))
+
       //scenario 2: if user guess is one of the valid alphabet and not in the random word and this guess was not used before
       if ((alphabet.indexOf(userInput) > -1) && (computerRandomSelection.indexOf(userInput) === -1) && (wrongLetter.indexOf(userInput) === -1)){
 
