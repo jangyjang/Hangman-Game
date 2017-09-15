@@ -14,7 +14,7 @@ body{
 	margin: 20px auto;
 	padding: 10px 10px 0px 10px;
 	text-align: center;
-	width: 60%;
+	width: 75%;
 	font-size: 28px;
 	height: 150px;
 }
@@ -29,19 +29,18 @@ body{
 	width: 100%;
 	font-size: 20px;
 	height: 70px;
-	border: 1px solid black
 }
 
 #attemptCountdown {
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: bold;
 	clear: both;
-	font-size: 20px;
+	font-size: 24px;
 	margin: 20px auto;
 	text-align: center;
-	height: 80px;
+	height: 50px;
 	padding: auto;
-	width: 60%;
+	width: 80%;
 
 }
 
@@ -54,7 +53,7 @@ body{
 	margin: 10px auto;
 	text-align: center;
 	height: 200px;
-	width: 60%;
+	width: 80%;
 
 }
 
@@ -74,7 +73,7 @@ body{
 	text-align: center;
 	height: 100px;
 	font-weight: bold;
-	width: 60%;
+	width: 80%;
 
 }
 #subusedLetter{
@@ -93,7 +92,7 @@ body{
 	margin: 10px auto;
 	text-align: center;
 	height: 100px;
-	width: 60%;
+	width: 80%;
 	padding-top: 10px;
 }
 
@@ -108,9 +107,8 @@ body{
 	font-family: 'Bungee Inline', cursive;
 	font-weight: bold;
 	border: 2px solid black;
-	clear: both;
 	font-size: 24px;
-	margin: 5px 50px auto auto;
+	margin: 0px 5px auto auto;
 	text-align: center;
 	height: 150px;
 	width: 10%;
@@ -126,8 +124,62 @@ body{
 	font-weight: bold;
 	font-size: 24px;
 
-
 }
+
+
+@media screen and (max-width: 980px){
+	#header, #attemptCountdown, #underscore, #usedLetter, #wrongLetter {
+		width: 80%;
+	}	
+	#winCount{
+		float: none;
+		width: 80%;
+		height: 15%;
+		margin: 0px auto;
+	}
+}
+
+		
+
+@media screen and (max-width: 768px){
+	#header, #attemptCountdown, #underscore, #usedLetter, #wrongLetter {
+		width: 100%;
+	}	
+	#header{
+		height: 40%;
+	}
+	#winCount{
+		float: none;
+		width: 100%;
+		height: 15%;
+	}
+	#subwinCount {
+		height: 10%;
+	}
+
+	
+	
+}
+@media screen and (max-width: 640px){
+	#header, #attemptCountdown, #underscore, #usedLetter, #wrongLetter {
+		width: 100%;
+	}	
+	#header{
+		height: 40%;
+	}
+	#winCount{
+		width: 100%;
+		float: none;
+		height: 15%;
+	}
+	#subwinCount {
+		height: 10%;
+	}
+
+
+	
+}
+
 
 
 
