@@ -8,8 +8,8 @@ body{
 }
 
 #header{
-	font-family:'Bungee Inline', cursive;
-	color: #514f4f;
+	font-family: 'Bungee Shade', cursive;
+	color: black;
 	background-color: #ff6f69;
 	margin: 20px auto;
 	padding: 10px 10px 0px 10px;
@@ -20,7 +20,7 @@ body{
 }
 
 #subheader{
-	font-family:'Bungee Inline', cursive;
+	font-family: 'Bungee Inline', cursive;
 	background-color: #ff6f69;
 	color: black;
 	margin: 0px auto;
@@ -60,6 +60,7 @@ body{
 #subunderscore{
 	font-family: 'Rajdhani', sans-serif;
 	margin: 50px auto;
+	font-weight: normal;
 
 
 }
@@ -121,7 +122,7 @@ body{
 #subwinCount{
 	font-family: 'Rajdhani', sans-serif;
 	margin-top: 15px;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 24px;
 
 }
