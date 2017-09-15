@@ -116,7 +116,7 @@ body{
 	font-size: 24px;
 	margin: 10px 10px auto auto;
 	text-align: center;
-	height: 150px;
+	height: 100px;
 	width: 10%;
 	padding-top: 10px;
 	float: right;
@@ -128,7 +128,7 @@ body{
 
 #subwinCount{
 	font-family: 'Rajdhani', sans-serif;
-	margin-top: 15px;
+	margin-top: 5px;
 	font-weight: bold;
 	font-size: 24px;
 	color: #9a1616;
