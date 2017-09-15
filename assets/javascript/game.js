@@ -93,7 +93,6 @@ function reset (){
         winCount++;
         alert ("You've won this game");
         reset()
-        console.log (winCount)
         }
 
     //winning scenario 2 (winning right when the attepmt is at zero)
@@ -101,7 +100,6 @@ function reset (){
           winCount++;
           alert ("You've won this game")
           reset()
-        console.log (winCount)
         }
 
     //losing sceinario (no more attempt left to keep trying)
